@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: pickup_Coin
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"pickup
+      Coin","summary":null,"pan":{"x":135.0,"y":-126.0},"zoom":1.0,"elements":[{"coroutine":true,"defaultValues":{"triggerRef":null},"position":{"x":-291.0,"y":-186.0},"guid":"71496c15-2ed7-4bd5-96eb-0488bcc6d436","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialTriggerEventOnEnter","$id":"9"},{"defaultValues":{"amount":{"$content":5,"$type":"System.UInt64"}},"position":{"x":146.0,"y":-168.0},"guid":"51fc1ffd-5bcd-4796-a578-b33af0a3d52d","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.AwardWorldCurrencyNode","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"inputTrigger","guid":"2c45de93-1faf-43d7-ade5-d6e709bf3331","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

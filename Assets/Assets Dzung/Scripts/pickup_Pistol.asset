@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: pickup_Pistol
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"pickup
+      Pistol","summary":null,"pan":{"x":141.0,"y":-89.0},"zoom":1.0,"elements":[{"defaultValues":{"itemID":{"$content":"4yigs6rjw4lpj3w9g9ibz","$type":"System.String"},"amount":{"$content":1,"$type":"System.UInt64"},"showToastMessage":{"$content":true,"$type":"System.Boolean"}},"position":{"x":13.0,"y":-87.0},"guid":"aa7e6299-1104-4760-bc26-ded48a3b7715","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.AddBackpackItemNode","$id":"9"},{"coroutine":true,"defaultValues":{"interactable":null},"position":{"x":-212.0,"y":-160.0},"guid":"0dbcfb67-f73b-4c36-bd27-3a9171bed22c","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialInteractableOnInteract","$id":"11"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"inputTrigger","guid":"e84bf7b7-71f4-4a70-82e7-7cfd92707f16","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

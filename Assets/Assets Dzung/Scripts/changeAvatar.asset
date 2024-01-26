@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: changeAvatar
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"ChangeAvatar","summary":"","pan":{"x":99.93399,"y":44.0},"zoom":1.0,"elements":[{"defaultValues":{"assetID":{"$content":"prisoner_ava","$type":"System.String"}},"position":{"x":55.0,"y":-93.0},"guid":"049b0b35-0eb8-4cf7-9af9-9b4c4955abfe","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SetLocalAvatarFromEmbeddedNode","$id":"9"},{"coroutine":false,"defaultValues":{"interactable":null},"position":{"x":-261.0,"y":-71.0},"guid":"ca5791fb-32ec-417d-bea1-7ac048cd2b03","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialInteractableOnInteract","$id":"11"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"inputTrigger","guid":"b42bbcc7-a1a8-484c-b355-8c2bb2ecf833","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
